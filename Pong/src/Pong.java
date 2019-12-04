@@ -14,7 +14,7 @@ public class Pong extends JFrame {			// To use JFrame, we need to “extend” from 
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);  // displays the JFrame in the centre of the primary monitor.
-		add(new PongPanel());
+		add(new PongPanel());	// adds a JPanel which fits inside the JFrame and displays graphics.
 	}
 
 	public static void main(String[] args) {
