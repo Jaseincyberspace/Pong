@@ -18,7 +18,6 @@ public class Pong extends JFrame {			// To use JFrame, we need to “extend” from 
 	}
 
 	public static void main(String[] args) {
-
 		new Pong(); // instantiate the Pong class, thus creating a new GUI window for the application to display output to.
 
 
