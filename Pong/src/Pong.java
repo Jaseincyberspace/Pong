@@ -23,3 +23,4 @@ public class Pong extends JFrame {			// To use JFrame, we need to “extend” from 
 
 	}// end main method
 }// end Pong class
+// New branch created.
