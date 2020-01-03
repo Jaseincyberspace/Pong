@@ -51,7 +51,7 @@ public class Sprite {
 		if(yPosition < 0) {
 			yPosition = 0;
 		}
-		else if(yPosition + width > panelHeight) { // if the vertical position is off the bottom of the panel then we override it to be at the bottom of the panel. We need to take into account the height of the object otherwise it would still overflow the bottom of the panel.
+		else if(yPosition + height > panelHeight) { // if the vertical position is off the bottom of the panel then we override it to be at the bottom of the panel. We need to take into account the height of the object otherwise it would still overflow the bottom of the panel.
 			yPosition = panelHeight - height;
 		}
 	}
